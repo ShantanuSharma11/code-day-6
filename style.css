@@ -871,11 +871,6 @@ border-radius: 60px;
     }
 
 
-
-
-
-
-    /* Responsive for smaller screens */
     @media (max-width: 768px) {
       .contact-section {
         flex-direction: column;
@@ -930,6 +925,10 @@ border-radius: 60px;
     height: auto;
     margin: 0 auto;
   }
+  .img6
+  {
+   display: none;
+  }
 
   .servicesmain, .resourcesmain, .testsub, .communitysection, .contact-section {
     flex-direction: column;
@@ -939,6 +938,25 @@ border-radius: 60px;
   .services4 {
     width: 100%;
     height: auto;
+  }
+  .services4 h1
+  {
+    font-size: 20px;
+
+  }
+  .communitysection
+  {
+    height:400px;
+  }
+
+  .community h1
+  {
+    text-align: center;
+  }
+  .community p
+  {
+    text-align: center;
+    
   }
 
   .parteners {
@@ -958,7 +976,7 @@ border-radius: 60px;
   }
 }
 
-/* Mobile (<=768px) */
+
 @media (max-width: 768px) {
   .container {
     padding: 10px 15px; 
